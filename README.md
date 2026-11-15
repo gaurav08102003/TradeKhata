@@ -1,0 +1,1 @@
+ to start docker: docker exec -it tradekhata_postgres psql -U postgres   
