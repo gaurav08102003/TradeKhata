@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: DockerFile
+      
+    image: tradekhata-postgres:1.0
 
     container_name: tradekhata_postgres
     restart: unless-stopped
